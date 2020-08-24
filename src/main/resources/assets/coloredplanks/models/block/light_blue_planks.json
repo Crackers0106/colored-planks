@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "coloredplanks:block/light_blue_planks"
+  }
+}

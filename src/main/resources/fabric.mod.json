@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Colored Planks",
-  "description": "This mod add's colored wooden planks to Minecraft",
+  "description": "This mod adds colored wooden planks to Minecraft",
   "authors": [
     "Crackers0106"
   ],
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.coloredplanks.example.ExampleMod"
+      "net.coloredplanks.example.coloredplanks"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "coloredplanks.mixins.json"
   ],
 
   "depends": {
@@ -32,6 +32,5 @@
     "minecraft": "1.15.x"
   },
   "suggests": {
-    "flamingo": "*"
   }
 }
